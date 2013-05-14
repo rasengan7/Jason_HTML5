@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	
 //Home Function
   $('#btnHome').click(function(){
    alert('Home');

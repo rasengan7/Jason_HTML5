@@ -1,14 +1,18 @@
+body
+{
+	background-image: -webkit-linear-gradient(180deg,
+    #000000 0%, 
+    #FFFFFF 50%,
+    #000000 100%);
+}
 .header
 {
-	background-image: -webkit-linear-gradient(120deg, #000, #FFF 50%, #000);
 	font-size:36px;
 	font-style:italic;
 	text-align:center;
 	color: aqua;
 	border-width :5px;
-	
 	border-color:black;
-	background-color: gray;
 	height: 60px;
 }
 
@@ -17,19 +21,17 @@
 
 }
 .Menu{
-	background-image: -webkit-linear-gradient(120deg, #000, #FFF 60%, #000);
+	background-image: -webkit-linear-gradient(#000, #FFF, #000);
 	margin: 5px 0px 5px 0px;
-	padding: 5px 0px 5px 580px;
+	padding: 5px 5px 5px 5px;
 	border-width :5px;
 	border-color:blue;
 }
 .footer
 {
-	background-image: -webkit-linear-gradient(120deg, #000, #FFF 70%, #000);
 	font-size:36px;
 	font-style:italic;
 	text-align:center;
-	color: aqua;
 	border-width :5px;
 	border-color:red;
 	height: 60px;
@@ -40,31 +42,37 @@
 	border-width : 2px;
 	border-color:white;
 	padding: 5px 5px 5px 5px;
-	background-image: -webkit-linear-gradient(#0F0,#F00, #0FF);
+	background-image: -webkit-linear-gradient(#0F0,#000, #0F0);
 	border-radius:5px;
 	width: 80px;
 }
 .btnMenu:hover{
+	-webkit-transform: scale(1.2,1.0);
 	font-size:17px;
 	color: white;
 	border:2px solid red;
-	padding: 5px 5px 5px 5px;
-	background-image: -webkit-linear-gradient(#000,#FFF);
+	padding: 5px 10px 5px 10px;
+	background-image: -webkit-linear-gradient(#F00,#000, #F00);
 	border-radius:5px;
 	width: 80px;
 }
 .btnMenu:active{
+
 	font-size:17px;
 	color: red;
 	border:2px solid red;
 	border-width : 1px;
 	border-color:white;
 	padding: 5px 5px 5px 5px;
-	background-image: -webkit-linear-gradient(#000,#FFF);
+	background-image: -webkit-linear-gradient(#FF0,#000, #FF0);
 	border-radius:5px;
 	width: 80px;
 }
-#sample
+
+div.tiles
 {
-	
+	padding: 10px 10px 10px 10px;
+	background-color:rgba(88,0,0,0.8);
+	width:100px;
+	height:100px;
 }
