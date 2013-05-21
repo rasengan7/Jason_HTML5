@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+/* ****************************************** index script ****************************************************
 //Home Function
   $('#btnHome').click(function(){
    alert('Home');
@@ -24,5 +24,7 @@ $(document).ready(function(){
   $('#btnUpdate').click(function(){
    alert('Update');
   });
+  */
+  
   
 });

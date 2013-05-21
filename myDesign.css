@@ -1,3 +1,4 @@
+/* 
 body
 {
 	background-image: -webkit-linear-gradient(180deg,
@@ -37,7 +38,7 @@ body
 	height: 60px;
 }
 .btnMenu{
-	font-size:17px;
+	font-size:15px;
 	color: white;
 	border-width : 2px;
 	border-color:white;
@@ -52,7 +53,7 @@ body
 	color: white;
 	border:2px solid red;
 	padding: 5px 10px 5px 10px;
-	background-image: -webkit-linear-gradient(#F00,#000, #F00);
+	background-image: -webkit-linear-gradient(#FA0,#000, #FA0);
 	border-radius:5px;
 	width: 80px;
 }
@@ -76,3 +77,137 @@ div.tiles
 	width:100px;
 	height:100px;
 }
+***************************************************** New Page CSS***********************************/
+
+.header
+{
+height:90px;
+background-image: -webkit-linear-gradient(#FF1111,#880000);
+	
+}
+
+.page
+{
+margin-top:2px;
+height:600px;
+	background-image:-webkit-linear-gradient(#FF1111,#880000);
+}
+
+.footer
+{
+	margin-top:2px;
+	background-image: -webkit-linear-gradient(#FF1111,#880000);
+}
+
+div#headerMenu
+{
+margin:10px 10px 10px 10px;
+	
+}
+
+div#title
+{
+	padding: 5px 10px 5px 10px;
+	text-align:center;
+	font-size:32px;
+	font-style:italic;
+	color:#EEE;
+	text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.8);	
+}
+div#headerContact a
+{
+color:white;
+padding: 5px 10px 5px 10px;
+float:right;
+}
+
+.btnHMenu
+{	
+	margin-top:5px;
+	padding: 5px 10px 5px 10px;
+	float:right;
+	width:80px;
+	height:40px;
+	background-color:#889898;
+}
+.btnHMenu:hover
+{	width:90px;
+	height:40px;
+	color:#000000;
+	border-color:#FFF;
+	background-color:#FFFFFF;
+}
+
+div#wall
+{
+	margin:10px 10px 10px 280px;
+	height:150px;
+	width:650px;
+	background-color:#FFFF00;
+	box-shadow:5px 5px 5px #222;
+}
+div#wall:hover
+{
+	margin:10px 10px 10px 280px;
+	height:150px;
+	width:650px;
+	border-color:#FFFFFF;
+	background-color:#FFFF00;
+	box-shadow:5px 5px 5px #222;
+}
+div.wallBtn
+{
+    background: #f00;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+
+div.walltext 
+{
+	margin-top:50px;
+	background-color:#DDD;
+}
+
+div.wallBtn#left
+{
+	text-align:center;
+	box-shadow:0px 0px 2px #000;
+	margin: 40px 10px 10px 40px;
+	float:left;
+}
+
+div.wallBtn#left:hover
+{
+	
+	box-shadow:0px 0px 15px #000;
+	margin: 40px 10px 10px 40px;
+	float:left;
+}
+div.wallBtn#left:active
+{
+	background:#0af;
+	box-shadow:0px 0px 15px #000;
+	margin: 40px 10px 10px 40px;
+	float:left;
+}
+div.wallBtn#right
+{
+	margin: -60px 10px 10px 500px;
+	float:right;
+	box-shadow:0px 0px 2px #000;
+}
+div.wallBtn#right:hover
+{
+	margin: -60px 10px 10px 500px;
+	float:right;
+	box-shadow:0px 0px 15px #000;
+}
+div.wallBtn#right:active
+{
+	margin: -60px 10px 10px 500px;
+	float:right;
+	background:#0af;
+	box-shadow:0px 0px 15px #000;
+}
+
